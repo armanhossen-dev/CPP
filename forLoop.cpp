@@ -31,13 +31,16 @@ int main(){
     9 x 9 = 81
     10 x 10 = 100
    */
-  std::cout << std::endl;
+
+  /*
+    std::cout << std::endl;
   for(int x = 10; x >= 1; x--){
     std::cout << x << std::endl;
   }
-  //1:45:16 / 6:00:00
-  //https://youtu.be/-TkoO8Z07hI?si=Vhe2EDHNJD_xNqxf
-
+  
+  */
+ //! for loop for a limited time to repeat code
+ 
 
     return 0;
 }
