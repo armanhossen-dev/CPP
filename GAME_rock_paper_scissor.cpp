@@ -92,20 +92,53 @@ void choseWinner(char player, char computer){
     */
     if(player == computer){
         std::cout << "it's a tie.\n";
-        /*
+    }else{
+        switch (player)
+        {
+        case 'r':
+            if(computer == 's' ){
+                std::cout << "You win\n";
+                //Rock beats Scissors: Rock crushes Scissors.
+            }else{ // computre == 'p'
+                //Paper beats Rock: Paper wraps Rock.
+                std::cout << "Computer Win\n";
+            }
+            break;
+        
+        case 'p':
+            if(computer == 'r'){
+                //Paper beats Rock: Paper wraps Rock.
+                std::cout << "You win\n";
+            }else{
+                //computer == 's'
+                //Scissors beats Paper: Scissors cut Paper.
+                std::cout << "Computer win\n";
+            }
+            break;
+        
+        case 's':
+            if(computer == 'p' ){
+                //Scissors beats Paper: Scissors cut Paper */
+                std::cout << "You win\n";
+            }else{
+                //computer == 'r'
+                //Rock beats Scissors: Rock crushes Scissors.
+                std::cout << "Computer win\n";
+            }
+            break;        
+        default:
+            std::cout << "Error: Case not matched\n";
+            break;
+        }
+    }
         std::cout << "player choice: ";
         showChoice(player);
         std::cout << "computer choice: ";
         showChoice(computer);
-    }
-    else{
-        std::cout << "Computer Win\n";
-        std::cout << "player choice: ";
-        showChoice(player);
-        std::cout << "computer choice: ";
-        showChoice(computer);
-        */
-    }
+
+
+
+
 }
 
 void showChoice(char choice){
