@@ -59,6 +59,8 @@ int main(){
     std::cin >> first_name;
     std::cout <<"Enter Last name : ";
     std::cin >> last_name;
+    //sr fullName = concatStrings(first_name, last_name);
+    //std::cout << "Full name : " << fullName << '\n';
     std::cout << "Full name : " << concatStrings(first_name,last_name) << '\n';
     
 
