@@ -1,1 +1,2 @@
-kacchi
+
+    int temp;
