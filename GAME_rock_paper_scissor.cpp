@@ -79,7 +79,6 @@ char getComputerChoice(){
 
 
 
-
 void choseWinner(char player, char computer){
 
     /*
@@ -135,9 +134,6 @@ void choseWinner(char player, char computer){
         showChoice(player);
         std::cout << "computer choice: ";
         showChoice(computer);
-
-
-
 
 }
 
