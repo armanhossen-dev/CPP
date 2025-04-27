@@ -1,6 +1,27 @@
 #include<iostream>
 using namespace std;
 
+class car{
+    public:
+        string make;
+        string model;
+        int year;
+        string color;
+    
+    //car object
+    car(string mak, string mod, int ye, string co){
+        make = mak;
+        //or
+        //this->make = mak;
+        model = mod;
+        year = ye;
+        color = co;
+    }
+
+};
+
+
+/*
 
 class student{
     public :
@@ -15,20 +36,21 @@ class student{
         this->gpa = gpa;
     }
     or,
-    */
+    
     student(string x, int y, double z){ //this name, age, gpa
         name = x;
         age = y;
         gpa = z;
     }
-
 };
+*/
 
 
 int main(){
     //constructor = special method that is automatically called when an object is instantiated
                 //  useful for assigning values to attributes as arguments
     
+    /*
     student student1("Arman", 23, 3.2);
     
     cout << student1.name << '\n'
@@ -48,6 +70,17 @@ int main(){
     cout << student2.name << '\n'
          << student2.age << '\n'
          << student2.gpa << endl;
+    */
+
+
+    //creating car object
+    //also need to pass those arguments
+    car car1("ELON", "TESLA", 2020, "White");
+    //display the attributes make, model, year, color
+    cout << car1.make << '\n'
+         << car1.model << '\n'
+         << car1.year << '\n'
+         << car1.color << '\n' ;
 
     return 0;
 }
