@@ -32,4 +32,9 @@ The repository is organized as follows:
 - **IDE**: Visual Studio Code / CLion / Code::Blocks.  
 
 ---
+## 📢 Contribution  
+
+This repo is for my personal learning, but feedback and suggestions are welcome!  
+
+---  
 
