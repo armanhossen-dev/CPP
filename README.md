@@ -1,6 +1,4 @@
-# C++ Programming Repository  
-
-Welcome to my C++ programming repository! 🎉  
+# My C++ programming repository! 🎉  
 
 This repository contains all my C++ coding projects, exercises, and practice problems. It serves as a collection of my learning journey and development in C++ programming.  
 
@@ -15,7 +13,6 @@ The repository is organized as follows:
 - **OOP/**: Object-Oriented Programming examples and projects.  
 - **Projects/**: Larger projects showcasing the practical use of C++ concepts.  
 - **Miscellaneous/**: Other small programs and experiments.
-
 ---
 
 ## 🚀 Features  
@@ -29,12 +26,12 @@ The repository is organized as follows:
 ## 🛠️ Tools Used  
 
 - **Compiler**: GCC / MSVC / Clang (based on system configuration).  
-- **IDE**: Visual Studio Code / CLion / Code::Blocks.  
+- **IDE**: Visual Studio Code / Dev-C++ / Code::Blocks.  
 
 ---
+
 ## 📢 Contribution  
 
 This repo is for my personal learning, but feedback and suggestions are welcome!  
 
 ---  
-
